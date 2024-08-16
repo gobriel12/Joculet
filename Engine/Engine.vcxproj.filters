@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\external_libs\ImGui\imgui.cpp">
+      <Filter>ExternLibrary_ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external_libs\ImGui\imgui_demo.cpp">
+      <Filter>ExternLibrary_ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external_libs\ImGui\imgui_draw.cpp">
+      <Filter>ExternLibrary_ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external_libs\ImGui\backends\imgui_impl_sdl.cpp">
+      <Filter>ExternLibrary_ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external_libs\ImGui\backends\imgui_impl_sdlrenderer.cpp">
+      <Filter>ExternLibrary_ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external_libs\ImGui\imgui_tables.cpp">
+      <Filter>ExternLibrary_ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external_libs\ImGui\imgui_widgets.cpp">
+      <Filter>ExternLibrary_ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LoadImageAndTexture.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Joculet\Joculet.cpp">
+      <Filter>Joculet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GlobalPath.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\external_libs\ImGui\imconfig.h">
+      <Filter>ExternLibrary_ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external_libs\ImGui\imgui.h">
+      <Filter>ExternLibrary_ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external_libs\ImGui\backends\imgui_impl_sdl.h">
+      <Filter>ExternLibrary_ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external_libs\ImGui\backends\imgui_impl_sdlrenderer.h">
+      <Filter>ExternLibrary_ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external_libs\ImGui\imgui_internal.h">
+      <Filter>ExternLibrary_ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LoadImageAndTexture.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Joculet\Joculet.h">
+      <Filter>Joculet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GlobalPath.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{eaa444d9-64a0-4fc8-876e-43ba322b8fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternLibrary_ImGui">
+      <UniqueIdentifier>{0b6f9fb3-03f1-4198-b2de-4a6302def822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Joculet">
+      <UniqueIdentifier>{ef4748d4-dbb9-4197-8df7-b4213976a87e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
